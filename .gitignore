@@ -1,5 +1,5 @@
 # Sensitive data files
-/backups
+backups/
 passwords.dat
 
 # Byte-compiled / optimized / DLL files
