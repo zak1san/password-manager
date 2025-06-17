@@ -10,3 +10,7 @@ KDF_ITERATIONS = 480000
 
 # リスト表示時の列の余白
 PASSWORD_LIST_DISPLAY_GAP = 20
+
+# バックアップ設定
+BACKUP_DIR = "backups" # バックアップを保存するディレクトリ名
+MAX_BACKUP_FILES = 5 # 最大バックアップファイル数

@@ -56,7 +56,7 @@ class ConsoleView:
         print("\n1. このパスワードに決定")
         print("2. パスワードの再生成")
         print("3. キャンセルして戻る")
-        return self.get_input("選択肢を入力してください（1〜3）:")
+        return str(get_valid_number("選択肢を入力してください（1〜3）: ", 1, 3))
 
     def get_service_name(self):
         """サービス名を取得する。"""

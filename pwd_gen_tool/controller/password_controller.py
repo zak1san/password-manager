@@ -113,8 +113,6 @@ class PasswordController:
                 elif action_choice == '3':
                     self.view.display_message("パスワード生成をキャンセルしました。")
                     return
-                else:
-                    self.view.display_error("無効な入力です。1〜3の番号を入力してください。")
 
     def _handle_add_manual_password(self):
         """パスワード手動追加の処理を扱う。"""
